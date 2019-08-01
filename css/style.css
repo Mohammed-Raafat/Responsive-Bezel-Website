@@ -1026,3 +1026,17 @@ button:hover {
         padding: 80px 10px 10px 10px;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    #head-section .head-arrows {
+        display: none;
+    }
+    
+    #head-section .buttons {
+        margin-bottom: 0;
+    }
+    
+    #head-section .buttons button {
+        height: 40px;
+    }
+}
